@@ -37,8 +37,10 @@ print("       ||__||||__||||__||||__||||__||||__||||__||")
 print("       |/__\||/__\||/__\||/__\||/__\||/__\||/__\|")
 time.sleep(1)
 print("------------------------------------------------")
-text=input("ENTER TEXT :  ")
-l=len(text)
-for i in range (0, len(text),l):
-    curate="̣̇⁚".join(text[i:i+l])
-print("CURATED TEXT :   " + "⁛⁝"+curate+"̣̇"+"⁝⁛")
+
+while True:
+    text=input("ENTER TEXT :  ")
+    l=len(text)
+    for i in range (0, len(text),l):
+        curate="̣̇⁚".join(text[i:i+l])
+    print("CURATED TEXT :   " + "⁛⁝"+curate+"̣̇"+"⁝⁛")
